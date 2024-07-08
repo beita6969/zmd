@@ -1,0 +1,114 @@
+// search
+.search-content {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1.794872rem;
+    background-color: #fff;
+
+    .search-box {
+        display: flex;
+        transform: translateY(.641026rem);
+        justify-content: space-between;
+        align-items: center;
+        width: 9.102564rem;
+        height: .974359rem;
+        background-color: #fff;
+        margin: 0 auto;
+
+        .tx {
+            width: 1.051282rem;
+            height: .974359rem;
+
+            &::before {
+                width: 100%;
+                height: 100%;
+                display: block;
+                content: "";
+                background: url('../icon/find/tx.png') no-repeat;
+                background-size: 100%;
+
+
+            }
+
+        }
+
+        .search {
+            width: 5.897436rem;
+            height: .794872rem;
+            border-radius: .128205rem;
+            font-size: .358974rem;
+            color: #999999;
+            text-align: center;
+            background-color: #F6F6F6;
+        }
+
+        &::after {
+            display: none;
+            content: '';
+        }
+
+        .upload {
+            font-family: "iconfont";
+            font-size: .512821rem;
+            line-height: .974359rem;
+        }
+
+        .list {
+            transform: translateY(.051282rem);
+            font-family: "iconfont";
+            font-size: .512821rem;
+        }
+    }
+}
+
+.file-list {
+    width: 8.461538rem;
+    // height: 7.692308rem;
+    margin-top: 1.538462rem + .487179rem;
+
+    ul {
+        width: 100%;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 100%;
+
+
+            &:nth-child(n+2) {
+                margin-top: .897436rem;
+            }
+
+            .row {
+                width: 1.538462rem;
+                text-align: center;
+
+                h4 {
+                    font-size: .333333rem;
+                    color: #7F7F7F;
+                    font-weight: normal;
+                    white-space: nowrap;
+                    margin-top: .205128rem;
+                }
+
+                span {
+                    display: block;
+                    font-size: .25641rem;
+                    color: #7F7F7F;
+                    white-space: nowrap;
+                    margin-top: .076923rem;
+                }
+
+                img {
+                    width: 100%;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+}

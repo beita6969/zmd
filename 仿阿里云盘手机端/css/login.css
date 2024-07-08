@@ -1,0 +1,133 @@
+@media screen and (min-width: 780px) {
+  html {
+    font-size: 78px !important;
+  }
+}
+body {
+  max-width: 780px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.w {
+  margin: 0 auto;
+}
+input[type="checkbox"]:checked {
+  background-color: #94c8ff;
+  /* 选中时的背景颜色 */
+  border-color: #006aff;
+  /* 选中时的边框颜色 */
+  color: #fff;
+  /* 选中时的文本颜色 */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.common-blue {
+  color: #5B75F5;
+}
+.top .content-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 3.333333rem;
+  width: 8.282051rem;
+  margin-top: 1.333333rem;
+}
+.top .content-top .tit-top {
+  font-size: 0.641026rem;
+  font-family: PingFang SC, PingFang SC-Bold;
+  color: #000000;
+  margin-bottom: 0.615385rem;
+  font-weight: bold;
+}
+.top .content-top .icon-top {
+  width: 3.794872rem;
+  height: 3.333333rem;
+}
+.top .content-top .icon-top img {
+  width: 100%;
+}
+.middle .content-middle {
+  width: 8.282051rem;
+  padding: 0.538462rem 0;
+}
+.middle .content-middle .input-tel-input {
+  width: 100%;
+  height: 1.333333rem;
+  border-bottom: 0.025641rem solid #D8D8D8;
+  font-size: 0.461538rem;
+  color: #333333;
+  letter-spacing: 0.038462rem;
+}
+.middle .content-middle .pass-code {
+  position: relative;
+  margin-top: 0.538462rem;
+}
+.middle .content-middle .pass-code .input-passCode {
+  width: 100%;
+  height: 1.333333rem;
+  border-bottom: 0.025641rem solid #D8D8D8;
+  font-size: 0.461538rem;
+  color: #333333;
+  letter-spacing: 0.064103rem;
+}
+.middle .content-middle .pass-code .passCode-restTime {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  font-size: 0.358974rem;
+  color: #969697;
+}
+.middle .content-middle .input-submit {
+  width: 100%;
+  height: 1.128205rem;
+  margin: 1.153846rem 0;
+  border-radius: 0.25641rem;
+  background-color: #5B75F5;
+  font-size: 0.641026rem;
+  color: #fff;
+}
+.middle .content-middle .more {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.333333rem;
+  color: #969697;
+}
+.footer {
+  width: 100%;
+}
+.footer .protocol-container {
+  transform: translateY(5.846154rem);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 8.205128rem;
+  height: 1.128205rem;
+  font-size: 0.410256rem;
+  color: #D6D6D7;
+}
+.footer .protocol-container .protocol-ok {
+  display: block;
+  transform: translateY(0.025641rem);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 0.410256rem;
+  /* 设置复选框的宽度 */
+  height: 0.410256rem;
+  /* 设置复选框的高度 */
+  border-radius: 0.205128rem;
+  /* 使用border-radius属性将复选框变为圆角 */
+  border: 0.025641rem solid #999;
+  /* 添加边框 */
+}
+.footer .protocol-container .protocol-content {
+  width: 7.794872rem;
+}

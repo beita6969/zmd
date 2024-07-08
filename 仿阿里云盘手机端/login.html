@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0， user-scalable=0"
+    />
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <script src="./js/flexible.js"></script>
+  </head>
+
+  <body>
+    <!-- 标题和logo -->
+    <section class="top">
+      <div class="content-top w">
+        <h2 class="tit-top">使用验证码登录</h2>
+        <h1 class="icon-top">
+          <img src="./icon/login/logo.png" alt="" />
+        </h1>
+      </div>
+    </section>
+    <!-- 登录表单 -->
+    <section class="middle">
+      <form action="" method="post">
+        <div class="content-middle w">
+          <input
+            class="input-tel-input"
+            type="tel"
+            placeholder="189 9390 9182"
+          />
+          <!-- 输入框和倒计时分开装 -->
+          <div class="pass-code">
+            <input class="input-passCode" type="number" placeholder="0 0 0 0" />
+            <span class="passCode-restTime">59秒</span>
+          </div>
+          <input class="input-submit" type="submit" value="登录" />
+          <div class="more">
+            <span class="user-login">账号密码登录</span>
+            <span class="user-register">注册</span>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- 底部协议信息 -->
+    <section class="footer">
+      <div class="protocol-container">
+        <input class="protocol-ok" type="checkbox" name="" id="" />
+        <span class="protocol-content"
+          >未注册手机登登录时会自动创建新账号，我已阅读并同意&nbsp;&nbsp;<span
+            class="common-blue"
+            >服务协议</span
+          >
+          和&nbsp; <span class="common-blue">隐私权条款</span></span
+        >
+      </div>
+    </section>
+
+    <script>
+      const inputTel = document.querySelector("input[type='submit']");
+      inputTel.onclick = function (event) {
+        event.preventDefault();
+        // 阻止表单提交
+        location.href = "index.html";
+      };
+    </script>
+  </body>
+</html>
+
+
+

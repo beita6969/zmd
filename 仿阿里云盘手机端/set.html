@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0， user-scalable=0"
+    />
+    <title>设置</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/set.css" />
+    <script src="./js/flexible.js"></script>
+    <script src="./js/common.js"></script>
+  </head>
+
+  <body>
+    <section class="set-header">
+      <div class="cnt">
+        <i class="back" onclick="navBack()">&#xe61e;</i>
+        <span class="tit">设置</span>
+      </div>
+    </section>
+    <section class="edit">
+      <div class="tx-container" onclick="navTo('./userData.html')">
+        <img src="./upload/set/tx.png" alt="" />
+      </div>
+      <span class="span name">Jim.ye</span>
+      <span class="user-edit">点按编辑个人资料</span>
+    </section>
+    <section class="set-list">
+      <ul class="photo-set w">
+        <li onclick="navTo('./photoBackupSet.html')">相册备份设置</li>
+        <li onclick="navTo('./phFileBackSet.html')">手机文件备份测试</li>
+        <li onclick="navTo('./clearCache.html')">清理缓存</li>
+      </ul>
+      <ul class="id-set w">
+        <li>隐私设置</li>
+        <li>账号与安全</li>
+      </ul>
+      <ul class="system-set w">
+        <li>更新日志</li>
+        <li>关于</li>
+      </ul>
+    </section>
+    <section class="out-login-container w">
+      <span class="out-text" onclick="navTo('./login.html')">退出登录</span>
+    </section>
+  </body>
+</html>

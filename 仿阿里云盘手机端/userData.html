@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0， user-scalable=0"
+    />
+    <title>用户资料</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/userData.css" />
+    <script src="./js/flexible.js"></script>
+    <script src="./js/common.js"></script>
+  </head>
+
+  <body>
+    <section class="set-header">
+      <div class="cnt">
+        <i class="back" onclick="navBack()">&#xe61e;</i>
+        <span class="tit">设置</span>
+      </div>
+    </section>
+    <section class="set-list">
+      <ul class="photo-set w">
+        <li>
+          头像
+          <div class="right-data">
+            <img src="./icon/find/tx.png" alt="" />
+          </div>
+        </li>
+        <li>
+          名称
+          <div class="right-data">
+            <span>张明达</span>
+          </div>
+        </li>
+        <li>
+          安全密码
+          <div class="right-data">
+            <span>未设置</span>
+          </div>
+        </li>
+      </ul>
+      <ul class="id-set w">
+        <li>
+          实名认证
+          <div class="right-data">
+            <span class="userDataBlue">未认证</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- 退出登录 -->
+    <section class="out-login-container w">
+      <span class="out-text" onclick="navTo('./login.html')">退出登录</span>
+    </section>
+  </body>
+</html>

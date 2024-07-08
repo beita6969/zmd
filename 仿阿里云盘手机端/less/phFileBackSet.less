@@ -1,0 +1,80 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.back-way-container {
+    width: 100%;
+    margin-top: .820513rem;
+
+    ul {
+        width: 9.179487rem;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: .25641rem;
+        padding-left: .333333rem;
+        padding-right: .179487rem;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 1.25641rem;
+            border-bottom: 2px solid #F2F2F2;
+
+            &:nth-child(2) {
+                img {
+                    width: 1.025641rem !important;
+                    height: 1.025641rem;
+                    margin-top: .128205rem;
+                }
+
+                .tit {
+                    margin-left: .333333rem;
+                }
+            }
+
+            &:last-child {
+                // 清除最后一个盒子的边框
+                border: none;
+            }
+
+            .left {
+                display: flex;
+                height: 100%;
+
+                img {
+                    width: 1.358974rem;
+                }
+
+                .tit {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h5 {
+                        font-size: .384615rem;
+                        font-weight: normal;
+                    }
+
+                    span {
+                        display: block;
+                        font-size: .205128rem;
+                        color: #AAAAAA;
+                    }
+                }
+            }
+
+            .right {
+                &::after {
+                    display: block;
+                    font-family: 'iconfont';
+                    font-size: .512821rem;
+                    content: '\e61e';
+                    transform: rotate(180deg);
+                    color: #949494;
+                }
+            }
+        }
+    }
+}

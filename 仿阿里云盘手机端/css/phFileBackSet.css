@@ -1,0 +1,68 @@
+body {
+  background-color: #F6F6F6;
+}
+.back-way-container {
+  width: 100%;
+  margin-top: 0.820513rem;
+}
+.back-way-container ul {
+  width: 9.179487rem;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.25641rem;
+  padding-left: 0.333333rem;
+  padding-right: 0.179487rem;
+}
+.back-way-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 1.25641rem;
+  border-bottom: 2px solid #F2F2F2;
+}
+.back-way-container ul li:nth-child(2) img {
+  width: 1.025641rem !important;
+  height: 1.025641rem;
+  margin-top: 0.128205rem;
+}
+.back-way-container ul li:nth-child(2) .tit {
+  margin-left: 0.333333rem;
+}
+.back-way-container ul li:last-child {
+  border: none;
+}
+.back-way-container ul li .left {
+  display: flex;
+  height: 100%;
+}
+.back-way-container ul li .left img {
+  width: 1.358974rem;
+}
+.back-way-container ul li .left .tit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.back-way-container ul li .left .tit h5 {
+  font-size: 0.384615rem;
+  font-weight: normal;
+}
+.back-way-container ul li .left .tit span {
+  display: block;
+  font-size: 0.205128rem;
+  color: #AAAAAA;
+}
+.back-way-container ul li .right::after {
+  display: block;
+  font-family: 'iconfont';
+  font-size: 0.512821rem;
+  content: '\e61e';
+  transform: rotate(180deg);
+  color: #949494;
+}
+
+
+
+
+

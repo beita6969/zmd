@@ -1,0 +1,244 @@
+// search
+.search-content {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1.794872rem;
+    background-color: #fff;
+
+    .search-box {
+        display: flex;
+        transform: translateY(.641026rem);
+        justify-content: space-between;
+        align-items: center;
+        width: 9.102564rem;
+        height: .974359rem;
+        background-color: #fff;
+        margin: 0 auto;
+
+        .tx {
+            width: 1.051282rem;
+            height: .974359rem;
+
+            &::before {
+                width: 100%;
+                height: 100%;
+                display: block;
+                content: "";
+                background: url('../icon/find/tx.png') no-repeat;
+                background-size: 100%;
+
+
+            }
+
+        }
+
+        .search {
+            width: 5.897436rem;
+            height: .794872rem;
+            border-radius: .128205rem;
+            font-size: .358974rem;
+            color: #999999;
+            text-align: center;
+            background-color: #F6F6F6;
+        }
+
+        &::after {
+            display: none;
+            content: '';
+        }
+
+        .upload {
+            font-family: "iconfont";
+            font-size: .512821rem;
+            line-height: .974359rem;
+        }
+
+        .list {
+            transform: translateY(.051282rem);
+            font-family: "iconfont";
+            font-size: .512821rem;
+        }
+    }
+}
+
+.content {
+    width: 9.307692rem;
+    margin-top: 1.538462rem + .666667rem;
+
+    .content-tit {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .content-left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .tit-text {
+                font-size: .410256rem;
+                color: #363638;
+            }
+
+            .tit-icon {
+                font-size: .333333rem;
+                color: #9598C6;
+                font-family: 'iconfont';
+            }
+        }
+
+        .content-right {
+            .tit-text {
+                font-size: .410256rem;
+                color: #8B8BDF;
+            }
+        }
+    }
+
+    .pic-container {
+        margin-top: .435897rem;
+
+        li {
+            display: inline-block;
+        }
+
+        .all-photo {
+            width: 3.641026rem;
+            height: 3.692308rem;
+
+            .top1 {
+                width: 2.974359rem;
+                height: .076923rem;
+                background: #f0f0f0;
+                border-radius: .051282rem;
+                margin: 0 auto;
+            }
+
+            .top2 {
+                width: 3.487179rem;
+                height: .076923rem;
+                background: #d7d7d7;
+                border-radius: .051282rem;
+                margin: 0 auto;
+            }
+
+            .pic-img-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                width: 100%;
+                height: 100%;
+                background: #f5f5f5;
+                border-radius: .128205rem;
+                overflow: hidden;
+                box-shadow: 0rem .076923rem .153846rem 0rem rgba(0, 0, 0, 0.15);
+
+                div[class^="img-"] {
+                    width: 1.794872rem;
+                    height: 1.794872rem;
+                    background-size: cover;
+                }
+
+                .img-1-container {
+                    background: url('../upload/photo/1.png') no-repeat center center;
+                }
+
+                .img-2-container {
+                    background: url('../upload/photo/2.png') no-repeat center center;
+                }
+
+                .img-3-container {
+                    background: url('../upload/photo/3.png') no-repeat center center;
+                }
+
+            }
+
+            .tit-tag {
+                display: block;
+                margin-top: .179487rem;
+                font-size: .358974rem;
+                color: #717173;
+            }
+        }
+
+        // add-img
+        .add-img {
+            width: 3.641026rem;
+            height: 3.692308rem;
+
+            .top1 {
+                width: 2.974359rem;
+                height: .076923rem;
+                background: #f0f0f0;
+                border-radius: .051282rem;
+                margin: 0 auto;
+            }
+
+            .top2 {
+                width: 3.487179rem;
+                height: .076923rem;
+                background: #EBEBEB;
+                border-radius: .051282rem;
+                margin: 0 auto;
+            }
+
+            .pic-img-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                background: #f5f5f5;
+                border-radius: .128205rem;
+                overflow: hidden;
+                box-shadow: 0rem .076923rem .153846rem 0rem rgba(0, 0, 0, 0.15);
+
+                &::after {
+                    width: .641026rem;
+                    font-size: .641026rem;
+                    font-family: 'iconfont';
+                    color: #D4D4D4;
+                    content: '\e727';
+                }
+
+            }
+
+            .tit-tag {
+                display: block;
+                margin-top: .179487rem;
+                font-size: .358974rem;
+                color: #717173;
+            }
+        }
+    }
+}
+
+.more {
+    display: block;
+    // 为了水平居中 所以给了宽度
+    width: 7.179487rem;
+    margin-top: 1.589744rem;
+    font-size: .358974rem;
+    color: #AFAFAF;
+}
+
+.file-add {
+    position: fixed;
+    right: .307692rem;
+    bottom: 3.025641rem;
+    width: 1.538462rem;
+    height: 1.538462rem;
+    font-family: 'iconfont';
+    font-size: .615385rem;
+    padding: .461538rem;
+    border-radius: .769231rem;
+    background: #5c7dfc;
+    color: #fff;
+    box-shadow: 0rem .076923rem .153846rem 0rem rgba(0, 0, 0, 0.15);
+}

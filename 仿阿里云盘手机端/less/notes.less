@@ -1,0 +1,159 @@
+// 这里的添加按钮改一下
+.file-add {
+    background-color: #36C0A1;
+}
+
+// 公共样式
+// search
+.search-content {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1.794872rem;
+    background-color: #fff;
+
+    .search-box {
+        display: flex;
+        transform: translateY(.641026rem);
+        justify-content: space-between;
+        align-items: center;
+        width: 9.102564rem;
+        height: .974359rem;
+        background-color: #fff;
+        margin: 0 auto;
+
+        .tx {
+            width: 1.051282rem;
+            height: .974359rem;
+
+            &::before {
+                width: 100%;
+                height: 100%;
+                display: block;
+                content: "";
+                background: url('../icon/find/tx.png') no-repeat;
+                background-size: 100%;
+
+
+            }
+
+        }
+
+        .search {
+            width: 5.897436rem;
+            height: .794872rem;
+            border-radius: .128205rem;
+            font-size: .358974rem;
+            color: #999999;
+            text-align: center;
+            background-color: #F6F6F6;
+        }
+
+        &::after {
+            display: none;
+            content: '';
+        }
+
+        .upload {
+            font-family: "iconfont";
+            font-size: .512821rem;
+            line-height: .974359rem;
+        }
+
+        .list {
+            transform: translateY(.051282rem);
+            font-family: "iconfont";
+            font-size: .512821rem;
+        }
+    }
+}
+
+// 此页面的样式开始
+body {
+    background: #f6f6f6;
+}
+
+.note-container {
+    width: 9.051282rem;
+    margin-top: 1.538462rem + .641026rem;
+
+    ul {
+        li {
+            display: block;
+            width: 100%;
+            background: #ffffff;
+            border-radius: .384615rem;
+            box-shadow: 0rem .076923rem .153846rem 0rem rgba(0, 0, 0, 0.15);
+            padding: .358974rem .269231rem .179487rem;
+        }
+
+        .note-item {
+            .note-item-tit {
+                font-size: .512821rem;
+                font-weight: bold;
+                color: #454545;
+            }
+
+            .note-item-abstract {
+                font-size: .371795rem;
+                color: #B9B9B9;
+                line-height: .641026rem;
+                letter-spacing: .025641rem;
+            }
+
+            // 图片容器
+            .pic-container {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .abstract-left {
+                    width: 3.923077rem;
+                    height: 4.487179rem;
+                    border-radius: .128205rem;
+                    overflow: hidden;
+
+                    i {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        background: url(../upload/notes/1.jpg) no-repeat center center;
+                        background-size: cover;
+                    }
+                }
+
+                .abstract-right {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 4.487179rem;
+                    height: 4.487179rem;
+                    border-radius: .128205rem;
+                    overflow: hidden;
+
+                    i {
+                        display: block;
+                        width: 100%;
+                        height: 2.179487rem;
+                        border-radius: .128205rem;
+                    }
+
+                    i {
+                        &:nth-child(1) {
+                            background: url(../upload/notes/2.png) no-repeat center center;
+                            background-size: cover;
+                        }
+
+                        &:nth-child(2) {
+                            background: url(../upload/notes/2.png) no-repeat center center;
+                            background-size: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

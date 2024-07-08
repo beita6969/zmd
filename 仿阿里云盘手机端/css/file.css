@@ -1,0 +1,93 @@
+.search-content {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 1.794872rem;
+  background-color: #fff;
+}
+.search-content .search-box {
+  display: flex;
+  transform: translateY(0.641026rem);
+  justify-content: space-between;
+  align-items: center;
+  width: 9.102564rem;
+  height: 0.974359rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.search-content .search-box .tx {
+  width: 1.051282rem;
+  height: 0.974359rem;
+}
+.search-content .search-box .tx::before {
+  width: 100%;
+  height: 100%;
+  display: block;
+  content: "";
+  background: url('../icon/find/tx.png') no-repeat;
+  background-size: 100%;
+}
+.search-content .search-box .search {
+  width: 5.897436rem;
+  height: 0.794872rem;
+  border-radius: 0.128205rem;
+  font-size: 0.358974rem;
+  color: #999999;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+.search-content .search-box::after {
+  display: none;
+  content: '';
+}
+.search-content .search-box .upload {
+  font-family: "iconfont";
+  font-size: 0.512821rem;
+  line-height: 0.974359rem;
+}
+.search-content .search-box .list {
+  transform: translateY(0.051282rem);
+  font-family: "iconfont";
+  font-size: 0.512821rem;
+}
+.file-list {
+  width: 8.461538rem;
+  margin-top: 2.025641rem;
+}
+.file-list ul {
+  width: 100%;
+}
+.file-list ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+.file-list ul li:nth-child(n+2) {
+  margin-top: 0.897436rem;
+}
+.file-list ul li .row {
+  width: 1.538462rem;
+  text-align: center;
+}
+.file-list ul li .row h4 {
+  font-size: 0.333333rem;
+  color: #7F7F7F;
+  font-weight: normal;
+  white-space: nowrap;
+  margin-top: 0.205128rem;
+}
+.file-list ul li .row span {
+  display: block;
+  font-size: 0.25641rem;
+  color: #7F7F7F;
+  white-space: nowrap;
+  margin-top: 0.076923rem;
+}
+.file-list ul li .row img {
+  width: 100%;
+  vertical-align: top;
+}

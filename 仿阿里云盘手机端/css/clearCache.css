@@ -1,0 +1,62 @@
+body {
+  background-color: #F6F6F6;
+}
+.back-way-container {
+  width: 100%;
+  margin-top: 0.820513rem;
+}
+.back-way-container ul {
+  width: 9.179487rem;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.25641rem;
+  padding-left: 0.333333rem;
+  margin-bottom: 0.820513rem;
+}
+.back-way-container ul:last-child {
+  padding-top: 0.25641rem;
+  padding-bottom: 0.25641rem;
+}
+.back-way-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.384615rem;
+  padding-bottom: 0.384615rem;
+  width: 100%;
+  max-height: 1.948718rem;
+  border-bottom: 2px solid #F2F2F2;
+  padding-right: 0.435897rem;
+}
+.back-way-container ul li:last-child {
+  border: none;
+}
+.back-way-container ul li .left {
+  display: flex;
+  height: 100%;
+}
+.back-way-container ul li .left img {
+  width: 1.358974rem;
+}
+.back-way-container ul li .left .tit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.back-way-container ul li .left .tit h5 {
+  font-size: 0.384615rem;
+  font-weight: normal;
+}
+.back-way-container ul li .left .tit span {
+  display: block;
+  margin-top: 0.051282rem;
+  font-size: 0.25641rem;
+  color: #AAAAAA;
+  max-width: 5.384615rem;
+}
+.back-way-container ul li .right::after {
+  display: block;
+  font-size: 0.384615rem;
+  content: '无需清理';
+  color: #AAAAAA;
+}

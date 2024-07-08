@@ -1,0 +1,70 @@
+// 设置搜索框的容器
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 8.871795rem;
+    height: .974359rem;
+    margin-top: .641026rem;
+
+    &::after {
+        position: absolute;
+        left: .333333rem;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: "iconfont";
+        content: '\e632';
+        font-size: .333333rem;
+    }
+
+    .search-input {
+        width: 7.641026rem;
+        height: 100%;
+        line-height: .461538rem;
+        background: #e4e7e8;
+        border-radius: .487179rem;
+        padding-left: .846154rem;
+        font-size: .333333rem;
+        color: #999;
+    }
+
+    .search-cancel {
+        display: block;
+        font-weight: bold;
+        font-size: .435897rem;
+        color: #4A4A4A;
+        margin-left: .358974rem;
+    }
+}
+
+// 搜索历史
+.search-history-container {
+    width: 8.871795rem;
+    margin-top: .487179rem;
+
+
+    dl {
+        margin: 0;
+
+        dt {
+            font-size: .384615rem;
+            font-weight: 800;
+            color: #000000;
+        }
+
+        dd {
+            display: inline-block;
+            margin: 0;
+            margin-top: .205128rem;
+            // line-height: .692308rem;
+            height: .692308rem;
+            color: #413d3d;
+            font-family: PingFang SC, PingFang SC-Normal;
+            font-size: .307692rem;
+            background-color: #E5E7E8;
+            border-radius: .333333rem;
+            padding: .179487rem .282051rem;
+
+        }
+    }
+}

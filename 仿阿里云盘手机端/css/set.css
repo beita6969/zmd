@@ -1,0 +1,91 @@
+body {
+  background-color: #F6F6F6;
+}
+/*�������أ�Http://www.bootstrapmb.com*/
+.edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3.717949rem;
+  margin-top: 1.102564rem;
+}
+.edit .tx-container {
+  width: 3.179487rem;
+  height: 2.487179rem;
+  clip-path: circle(40%);
+}
+.edit .tx-container img {
+  width: 100%;
+}
+.edit .name {
+  font-size: 0.384615rem;
+  font-weight: 800;
+}
+.edit .user-edit {
+  font-size: 0.307692rem;
+  color: #6B6B6B;
+}
+.set-list {
+  width: 100%;
+  margin-top: 1.230769rem;
+}
+.set-list ul {
+  width: 9.179487rem;
+  padding-left: 0.461538rem;
+  margin-bottom: 0.461538rem;
+  background-color: #fff;
+  border-radius: 0.25641rem;
+}
+.set-list ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.384615rem;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  color: #000000;
+  padding-top: 0.25641rem;
+  padding-bottom: 0.307692rem;
+  padding-right: 0.179487rem;
+  border-bottom: 0.051282rem solid #F2F2F2;
+}
+.set-list ul li::after {
+  font-family: 'iconfont';
+  font-size: 0.512821rem;
+  content: '\e61e';
+  transform: rotate(180deg);
+  color: #949494;
+}
+.out-login-container {
+  width: 8.846154rem;
+  height: 0.948718rem;
+  text-align: center;
+  margin-top: 2.564103rem;
+  margin-bottom: 0.384615rem;
+}
+.out-login-container .out-text {
+  display: block;
+  font-size: 0.384615rem;
+  color: #838383;
+  line-height: 0.948718rem;
+}
+
+
+
+.note-container {
+  width: 9.051282rem;
+  margin-top: 2.179488rem;
+}
+.note-container ul li {
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 0.384615rem;
+  box-shadow: 0rem 0.076923rem 0.153846rem 0rem rgba(0, 0, 0, 0.15);
+  padding: 0.358974rem 0.269231rem 0.179487rem;
+}
+
+

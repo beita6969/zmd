@@ -1,0 +1,86 @@
+.ad-box {
+  width: 9.076923rem;
+  height: 4.666667rem;
+  margin-top: 1.897436rem;
+  border-radius: 0.25641rem;
+  overflow: hidden;
+  margin-bottom: 0.794872rem;
+  box-shadow: 0rem 0.076923rem 0.153846rem 0rem rgba(0, 0, 0, 0.15);
+}
+.ad-box img {
+  width: 100%;
+}
+.file-list {
+  width: 9.076923rem;
+  height: 13.205128rem;
+  background-color: #fff;
+  border-radius: 0.512821rem;
+  box-shadow: 0rem 0.076923rem 0.153846rem 0rem rgba(0, 0, 0, 0.15);
+  padding: 18px 0.564103rem 0.666667rem;
+}
+.file-list .tips {
+  display: block;
+  font-size: 0.307692rem;
+  color: #AAAAAA;
+}
+.file-list .tit-recFile {
+  margin: 0.384615rem 0 0.358974rem 0;
+  font-size: 0.461538rem;
+  font-family: PingFang SC, PingFang SC-Normal;
+  font-weight: normal;
+}
+.file-list .list-content {
+  display: block;
+  width: 7.717949rem;
+}
+.file-list .list-content .list-list {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 1.282051rem;
+}
+.file-list .list-content .list-list:nth-child(n+2) {
+  margin-top: 0.461538rem;
+}
+.file-list .list-content .list-list .icon {
+  width: 1.153846rem;
+  height: 1.282051rem;
+}
+.file-list .list-content .list-list .icon img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.file-list .list-content .list-list .file-info {
+  margin-left: 0.230769rem;
+}
+.file-list .list-content .list-list .file-info .file-info-tit {
+  margin-top: 0.230769rem;
+  font-size: 0.358974rem;
+  font-family: PingFang SC, PingFang SC-Normal;
+  font-weight: normal;
+}
+.file-list .list-content .list-list .file-info .file-info-date {
+  display: block;
+  margin-top: 0.102564rem;
+  font-size: 0.333333rem;
+  color: #7F7F7F;
+}
+.file-list .list-content .list-list .file-look {
+  position: absolute;
+  left: 5.897436rem;
+  display: block;
+  align-self: center;
+  transform: translateX(0.769231rem);
+  width: 1.102564rem;
+  height: 0.564103rem;
+  line-height: 0.564103rem;
+  border-radius: 0.282051rem;
+  text-align: center;
+  font-size: 0.333333rem;
+  color: #333333;
+  background-color: #ECECEC;
+}
+
+
+
+

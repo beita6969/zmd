@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0， user-scalable=0"
+    />
+    <title>文档</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/doc.css" />
+    <script src="./js/flexible.js"></script>
+  </head>
+
+  <body>
+    <header class="search-content w">
+      <div class="search-box">
+        <span class="tx"></span>
+        <span class="user-name">Jim</span>
+      </div>
+    </header>
+    <nav class="nav">
+      <ul>
+        <li>最近</li>
+        <li>共享</li>
+        <li>星标</li>
+        <li>标签</li>
+        <li>全部</li>
+      </ul>
+    </nav>
+    <section class="doc-list">
+      <ul>
+        <li>
+          <!-- icon -->
+          <div class="icon-container">
+            <img src="./icon/find/word.svg" alt="" />
+          </div>
+          <!-- file info -->
+          <div class="file-info">
+            <h5 class="file-name">云南大学期末大作业.docx</h5>
+            <span class="file-date">2024-07-07&nbsp; 来自我的文档</span>
+            <i class="file-shar">&#xe620;</i>
+            <i class="file-more">&#xe624;</i>
+          </div>
+        </li>
+        <li>
+          <!-- icon -->
+          <div class="icon-container">
+            <img src="./icon/find/ppt.svg" alt="" />
+          </div>
+          <!-- file info -->
+          <div class="file-info">
+            <h5 class="file-name">2024云南大学成绩表.pptx</h5>
+            <span class="file-date">2022-05-20&nbsp; 来自我的文档</span>
+            <i class="file-shar">&#xe620;</i>
+            <i class="file-more">&#xe624;</i>
+          </div>
+        </li>
+        <li>
+          <!-- icon -->
+          <div class="icon-container">
+            <img src="./icon/find/text.svg" alt="" />
+          </div>
+          <!-- file info -->
+          <div class="file-info">
+            <h5 class="file-name">笔记.txt</h5>
+            <span class="file-date">2024-07-07&nbsp; 来自我的文档</span>
+            <i class="file-shar">&#xe620;</i>
+            <i class="file-more">&#xe624;</i>
+          </div>
+        </li>
+        <li>
+          <!-- icon -->
+          <div class="icon-container">
+            <img src="./icon/find/zip.svg" alt="" />
+          </div>
+          <!-- file info -->
+          <div class="file-info">
+            <h5 class="file-name">考试答案</h5>
+            <span class="file-date">2024-07-05&nbsp; 来自我的文档</span>
+            <i class="file-shar">&#xe620;</i>
+            <i class="file-more">&#xe624;</i>
+          </div>
+        </li>
+        <li>
+          <!-- icon -->
+          <div class="icon-container">
+            <img src="./icon/find/excel.svg" alt="" />
+          </div>
+          <!-- file info -->
+          <div class="file-info">
+            <h5 class="file-name">综测统计表.xlsx</h5>
+            <span class="file-date">2024-04-13&nbsp; 来自我的文档</span>
+            <i class="file-shar">&#xe620;</i>
+            <i class="file-more">&#xe624;</i>
+          </div>
+        </li>
+        <li>
+          <!-- icon -->
+          <div class="icon-container">
+            <img src="./icon/find/zip.svg" alt="" />
+          </div>
+          <!-- file info -->
+          <div class="file-info">
+            <h5 class="file-name">期末试题答案</h5>
+            <span class="file-date">2024-05-30&nbsp; 来自我的文档</span>
+            <i class="file-shar">&#xe620;</i>
+            <i class="file-more">&#xe624;</i>
+          </div>
+        </li>
+        <li>
+          <!-- icon -->
+          <div class="icon-container">
+            <img src="./icon/find/excel.svg" alt="" />
+          </div>
+          <!-- file info -->
+          <div class="file-info">
+            <h5 class="file-name">云南大学题库</h5>
+            <span class="file-date">2024-05-14&nbsp; 来自我的文档</span>
+            <i class="file-shar">&#xe620;</i>
+            <i class="file-more">&#xe624;</i>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <span class="file-add">&#xe727;</span>
+    <footer class="footer">
+      <ul>
+        <li><a href="./find.html">发现</a></li>
+        <li><a href="./index.html">文件</a></li>
+        <li><a href="./photo.html">相册</a></li>
+        <li><a href="./notes.html">笔记</a></li>
+        <li><a href="./doc.html">文档</a></li>
+        <li>&#xe672;</li>
+      </ul>
+    </footer>
+  </body>
+  <script src="./js/common.js"></script>
+  <script>
+    const searchEL = document.querySelector(".search-box");
+    searchEL?.addEventListener("click", function () {
+      const viewportWidth = window.innerWidth;
+      const clickX = event.clientX;
+      console.log(clickX, viewportWidth);
+      if (clickX >= viewportWidth - 50) {
+        // 假设伪元素在父元素的左上角50x50区域内
+        location.href = "./search.html";
+      }
+    });
+  </script>
+</html>
+
+
+
+
+ 
